@@ -144,7 +144,7 @@ $wallet_cash = $wallet_value * $price;
                   <h3>Mined Profit: <?php echo "$".number_format($pastTotal,2);?></h3>
                   <h3>24 hr Mined: <?php echo number_format($past24,2);?></h3>
                   <h3>24 hr Profit: <?php echo "$".number_format($past24Total,2);?></h3>
-                  <h3>LTC / BTC : <?php echo number_format(($xvert*1000),0);?> ltc = 1 BTC</h3>
+                  <h3>LTC / BTC : <?php echo number_format((1/$xvert),0);?> ltc = 1 BTC</h3>
                   <h3>BTC / USD : <?php echo "$".number_format($btc,2);?></h3>
               </div>
           </div>
